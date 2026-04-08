@@ -1,8 +1,9 @@
 # Sales Analytics & Forecasting Project
 
-end-to-end data analysis project that explore 4 years of sales data to extract business insights and forcast future revenue.  
+End-to-end data analysis project exploring 4 years of retail sales data
+to extract business insights and forecast future revenue.
 
-**Tools Used:** Python, Pandas, NumPy, Matplotlib, Seaborn, SQL, Scikit-learn, Power BI
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, SQL, Scikit-learn, Power BI
 
 ---
 
@@ -20,40 +21,27 @@ sales-analytics-project/
 ├── dashboard/
 │   └── sales_dashboard.pbix
 │
-└── README.md
-│
+├── README.md
 └── requirements.txt
 
 ---
 
-## Notebooks
-
-### 01 — Data Cleaning & Exploration - Key Findings
-#### Missing Values
-No missing values found across all 21 columns. Dataset is complete and ready for analysis.
-
-#### Negative Profit Investigation
-- A portion of orders have negative profit, meaning the company is losing money on them
-- **Root Cause:** Excessive discounting — orders with higher discounts consistently fall below break-even
-- **Most loss-making sub-category: Binders**
-  - Binders had the highest total losses across all sub-categories
-  - High average discount rate is the primary driver of these losses
-  - Clear pattern observed: as discount increases, profit drops below zero
-
-#### Business Recommendation
-The company should review its discounting strategy for Binders specifically,
-and set a maximum discount threshold to avoid selling below cost.
-
----
 ## Dataset
-
 - **Source:** [Superstore Dataset - Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 - **Size:** 9,994 rows, 21 columns
 - **Period:** 2014 – 2017
 
 ---
-## How to Run
 
+## Key Findings
+- Technology leads in both sales and profit margin (17.40%)
+- Furniture generates high revenue but only 2.49% margin — severely impacted by discounting
+- Central region is the least efficient with 7.92% profit margin vs West at 14.94%
+- Binders are the most loss-making sub-category due to excessive discounts
+- Sales show consistent YoY growth with predictable seasonal dips in January 
+  and peaks in November/December
+
+## How to Run
 1. Clone the repo
 ```bash
    git clone https://github.com/your-username/sales-analytics-project.git
@@ -62,4 +50,4 @@ and set a maximum discount threshold to avoid selling below cost.
 ```bash
    pip install -r requirements.txt
 ```
-3. Open any notebook in VS Code or Jupyter and run cells sequentially
+3. Open any notebook in VS Code and run cells sequentially
