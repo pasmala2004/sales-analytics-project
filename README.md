@@ -52,6 +52,12 @@ sales-analytics-project/
 - Discount above 20% guarantees a loss — identified as the root cause 
   of all profitability issues across categories, products and regions
 
+### Notebook 3 - forecasting model
+- Built and compared 3 models: Baseline LR (R²=0.034), 
+  Improved LR (R²=0.345), Random Forest (R²=0.463)
+- Random Forest selected as final model with lowest prediction error
+- Seasonal feature engineering improved Linear Regression by 31 percentage points
+
 ## How to Run
 1. Clone the repo
 ```bash
