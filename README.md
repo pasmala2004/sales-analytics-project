@@ -3,7 +3,7 @@
 End-to-end data analysis project exploring 4 years of retail sales data
 to extract business insights and forecast future revenue.
 
-**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, SQL, Scikit-learn, Power BI
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, SQL, SQLite, Scikit-learn, Power BI
 
 ---
 
@@ -57,6 +57,25 @@ sales-analytics-project/
   Improved LR (R²=0.345), Random Forest (R²=0.463)
 - Random Forest selected as final model with lowest prediction error
 - Seasonal feature engineering improved Linear Regression by 31 percentage points
+
+--- 
+
+## Dashboard
+
+Built an interactive Power BI dashboard with 2 pages:
+
+**Page 1 — Overview**
+- KPI cards: Total Sales, Profit, Quantity, Orders
+- Sales by Category bar chart
+- Profit Margin by Category bar chart
+- Monthly Sales Trend 2014-2017 line chart
+- Year slicer for interactive filtering
+
+**Page 2 — Deep Dive**
+- Profit by Region
+- Top 10 Customers by Profit
+- Discount Impact on Profit scatter chart
+- Sales by Customer Segment donut chart
 
 ## How to Run
 1. Clone the repo
