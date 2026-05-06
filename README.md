@@ -1,4 +1,4 @@
-<img width="1219" height="700" alt="Screenshot 2026-04-13 173802" src="https://github.com/user-attachments/assets/893d915f-d3dd-40d8-bb34-4a6b6e39c2d7" /># Sales Analytics & Forecasting Project
+# Sales Analytics & Forecasting Project
 
 End-to-end data analysis project exploring 4 years of retail sales data
 to extract business insights and forecast future revenue.
