@@ -1,4 +1,4 @@
-# Sales Analytics & Forecasting Project
+<img width="1219" height="700" alt="Screenshot 2026-04-13 173802" src="https://github.com/user-attachments/assets/893d915f-d3dd-40d8-bb34-4a6b6e39c2d7" /># Sales Analytics & Forecasting Project
 
 End-to-end data analysis project exploring 4 years of retail sales data
 to extract business insights and forecast future revenue.
@@ -61,7 +61,6 @@ sales-analytics-project/
 --- 
 
 ## Dashboard
-
 Built an interactive Power BI dashboard with 2 pages:
 
 **Page 1 — Overview**
@@ -77,10 +76,14 @@ Built an interactive Power BI dashboard with 2 pages:
 - Discount Impact on Profit scatter chart
 - Sales by Customer Segment donut chart
 
+## Dashboard Preview
+<img width="1219" height="700" alt="Screenshot 2026-04-13 173802" src="https://github.com/user-attachments/assets/e56929d5-3462-4ee9-835d-7148f28c4c0a" />
+<img width="1223" height="690" alt="Screenshot 2026-04-13 175123" src="https://github.com/user-attachments/assets/78bc48f9-5f71-40ad-9aac-4f8a7e037582" />
+
 ## How to Run
 1. Clone the repo
 ```bash
-   git clone https://github.com/your-username/sales-analytics-project.git
+    git clone https://github.com/pasmala2004/sales-analytics-pipeline.git
 ```
 2. Install dependencies
 ```bash
